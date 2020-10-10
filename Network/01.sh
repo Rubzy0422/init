@@ -1,0 +1,1 @@
+ip link show | sed -n '1~2p' | cut -d ':' -f 2
